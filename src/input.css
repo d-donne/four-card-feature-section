@@ -4,7 +4,7 @@
 
 @layer base {
   h1 {
-    @apply text-font-accent text-xl  md:text-2xl lg:text-3xl;
+    @apply text-font-accent text-xl  md:text-2xl lg:text-[2rem] leading-8;
   }
   
 
