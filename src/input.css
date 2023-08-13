@@ -5,25 +5,29 @@
 @layer base {
   h1,
   h2 {
-    @apply text-font-accent font-semibold;
+    @apply text-font-accent text-xl  md:text-2xl lg:text-3xl;
   }
+  
 
   h2 {
-    @apply text-lg;
-  }
-}
-
-
-
-@layer components {
-  .card {
-    @apply relative p-5 max-h-[15.375rem] min-w-[18rem] max-w-[22rem] rounded-b-md shadow-custom h-[15.625rem] bg-veryLightGray before:absolute before:inset-0 before:top-[-3px] before:rounded-t-3xl before:h-1
+    @apply text-lg font-semibold;
   }
 
   
-
-  .card-img {
-    @apply absolute bottom-5 right-5 h-16;
-  }
 }
 
+@layer components {
+  .card {
+    @apply relative p-7 h-[13.75rem] rounded-b-md shadow-custom bg-veryLightGray md:max-w-[18.25rem] before:absolute before:inset-0 before:top-[-3px] before:rounded-t-3xl before:h-1;
+  }
+
+  .card-text {
+    @apply text-[0.8125rem] leading-5 mt-4;
+  }
+  /* 
+h-[13.75rem] min-w-max md:max-h-[15.375rem]  w-[22rem]
+*/
+  .card-img {
+    @apply absolute bottom-5 right-5 h-[48px] md:max-h-[4.1875rem];
+  }
+}
