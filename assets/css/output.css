@@ -589,7 +589,7 @@ h2 {
 
 @media (min-width: 768px) {
   .card {
-    max-width: 18.25rem;
+    max-width: 20.25rem;
   }
 }
 
@@ -670,11 +670,6 @@ h-[13.75rem] min-w-max md:max-h-[15.375rem]  w-[22rem]
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .text-center {

@@ -39,7 +39,7 @@ npm run build:tailwindcss
 ### Links
 
 - Solution URL: [View Code](github.com/d-donne/four-card-feature-section.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Preview Site](https://d-donne.github.io/four-card-feature-section/)
 
 ## My process
 
