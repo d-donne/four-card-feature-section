@@ -633,6 +633,14 @@ h-[13.75rem] min-w-max md:max-h-[15.375rem]  w-[22rem]
   margin-bottom: 1rem;
 }
 
+.mb-\[1\.75rem\] {
+  margin-bottom: 1.75rem;
+}
+
+.mb-\[1\.5rem\] {
+  margin-bottom: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -663,6 +671,10 @@ h-[13.75rem] min-w-max md:max-h-[15.375rem]  w-[22rem]
 
 .gap-\[3\.25rem\] {
   gap: 3.25rem;
+}
+
+.gap-\[4\.125rem\] {
+  gap: 4.125rem;
 }
 
 .bg-veryLightGray {
