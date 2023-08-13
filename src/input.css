@@ -17,7 +17,7 @@
 
 @layer components {
   .card {
-    @apply relative p-7 h-[13.75rem] rounded-b-md shadow-custom bg-veryLightGray md:max-w-[20.25rem] before:absolute before:inset-0 before:top-[-3px] before:rounded-t-3xl before:h-1;
+    @apply relative p-7 h-[13.75rem] md:h-[15.5rem] rounded-b-md shadow-custom bg-veryLightGray md:max-w-[20.25rem] before:absolute before:inset-0 before:top-[-3px] before:rounded-t-3xl before:h-1;
   }
 
   .card-text {
@@ -27,6 +27,6 @@
 h-[13.75rem] min-w-max md:max-h-[15.375rem]  w-[22rem]
 */
   .card-img {
-    @apply absolute bottom-5 right-5 h-[48px] md:max-h-[4.1875rem];
+    @apply absolute bottom-5 right-5 h-[48px] md:h-auto;
   }
 }
