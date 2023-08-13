@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1,
+  h2 {
+    @apply text-font-accent font-semibold;
+  }
+
+  h2 {
+    @apply text-lg;
+  }
+}
+
+
+
+@layer components {
+  .card {
+    @apply relative p-5 max-h-[15.375rem] min-w-[18rem] max-w-[22rem] rounded-b-md shadow-custom h-[15.625rem] bg-veryLightGray before:absolute before:inset-0 before:top-[-3px] before:rounded-t-3xl before:h-1
+  }
+
+  
+
+  .card-img {
+    @apply absolute bottom-5 right-5 h-16;
+  }
+}
+
