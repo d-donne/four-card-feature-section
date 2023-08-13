@@ -3,14 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  h1,
-  h2 {
+  h1 {
     @apply text-font-accent text-xl  md:text-2xl lg:text-3xl;
   }
   
 
   h2 {
-    @apply text-lg font-semibold;
+    @apply text-font-accent text-lg font-semibold;
   }
 
   
