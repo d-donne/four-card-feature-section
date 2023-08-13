@@ -16,7 +16,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Overview
 
-Built using Tailwindcss framework. Since I'm relatively new to the tailwind, I challenged myself to avoid the temptation of using traditional CSS... and well, it's an honest day's work. 😁
+Built using Tailwindcss framework. Since I'm relatively new to tailwind, I challenged myself to avoid the temptation of using traditional CSS... and well, it's an honest day's work. 😁
 
 ### The challenge
 
